@@ -1,0 +1,75 @@
+.mobile
+  display: inline-block
+  &-button
+    width: 100px
+    height: 100px
+    background-color: $orange
+    display: none
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    border: none
+    &__line
+      display: block
+      margin-bottom: 8px
+      height: 5px
+      width: 45px
+      background-color: #DADADA  
+  &-menu
+    display: block
+    position: fixed
+    top: 0
+    bottom: 0
+    right: 0
+    left: 0
+    background-color: white
+    z-index: 1
+    &__close
+      display: flex
+      justify-content: flex-end
+      padding-top: 17px
+      padding-bottom: 31px
+      padding-right: 17px
+    &__items
+      display: flex
+      flex-direction: column
+      list-style: none
+      margin: 0
+      padding: 0
+    &__item
+      display: flex
+      justify-content: space-between
+      align-items: center
+      margin-bottom: 20px
+      padding: 18px 16px
+      font-family: 'Raleway', sans-serif
+      font-weight: normal
+      font-size: 20px
+      line-height: 19px
+      letter-spacing: 0.1em
+      text-transform: uppercase
+      background-color: #F9F9FC
+      &:last-child
+        margin-bottom: 0
+    &__link
+      text-decoration: none 
+      color:  #48494D
+      cursor: pointer
+    &__image
+      margin-right: 6px
+@media screen and ( max-width: 968px  )
+  .mobile
+    &-button
+      display: flex
+@media screen and ( max-width: 500px  )
+  .mobile
+    &-button
+      width: 50px
+      height: 50px
+      &__line
+        margin-bottom: 4px
+        height: 2.5px
+        width: 22.5px
+    &-menu
+      &__item
+        font-size: 16px    

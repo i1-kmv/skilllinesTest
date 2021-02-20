@@ -1,0 +1,75 @@
+.poster
+  &-block
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  &-item
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    padding: 38px 60px 30px 60px
+    background-size: cover
+    max-width: 370px
+    &__title
+      font-family: 'Playfair Display', serif
+      margin-bottom: 274px
+      font-weight: 900
+      font-size: 30px
+      line-height: 40px
+      text-align: center
+      letter-spacing: 2px
+      text-transform: uppercase
+    &__button
+      padding: 17px 33px 15px 30px
+      background-color: rgba(0, 0, 0, 0.7)
+      border: 2px solid $orange
+      &:hover
+        background-color: $orange 
+      &-wrap
+        display: flex
+        justify-content: space-between
+        align-items: center
+      &-link
+        text-decoration: none
+        font-family: 'Raleway', sans-serif
+        font-weight: 600
+        font-size: 12px
+        line-height: 14px
+        letter-spacing: 2px
+        text-transform: uppercase
+        color: $text-white
+        margin-right: 10px
+        vertical-align: center
+      &-image
+        display: inline-block
+
+@media screen and ( max-width: 1192px )
+  .poster
+    &-block
+      flex-direction: row
+      justify-content: center
+      flex-wrap: wrap
+    &-item
+      margin-bottom: 20px
+      margin-right: 20px
+      width: 500px
+      height: 490px
+
+
+@media screen and ( max-width: 768px )
+  .poster
+    &-item
+      margin-right: 0px
+
+@media screen and ( max-width: 500px )
+  .poster
+    &-item
+      padding: 40px 65px 40px 65px 
+      justify-content: center
+      width: 288px
+      height: 310px
+      &__title
+        margin-bottom: 123px
+        font-size: 20px
+        line-height: 150%

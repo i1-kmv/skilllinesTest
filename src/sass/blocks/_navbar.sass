@@ -1,0 +1,52 @@
+.navbar
+  &-block
+    display: flex
+    flex-direction: column
+    text-align: center
+    align-items: center
+    padding-top: 60px 
+    padding-bottom: 40px
+  &-title
+    font-size: 35px
+    margin-top: 0
+    margin-bottom: 46px
+    font-family: 'Playfair Display', serif
+    font-weight: 900
+    letter-spacing: 1px
+  &-menu
+    width: 100%
+    &__items
+      display: flex
+      justify-content: space-between
+      list-style: none
+      margin: 0
+      padding: 0 
+    &__item
+      font-family: 'Raleway', sans-serif
+      font-weight: normal
+      font-size: 15px
+      line-height: 18px
+      letter-spacing: 2px
+    &__link
+      text-decoration: none 
+      color: $text-color
+      cursor: pointer
+
+@media screen and ( max-width: 968px )
+  .navbar
+    &-menu
+      display: none
+    &-title
+      margin-bottom: 20px
+@media screen and ( max-width: 500px )
+  .navbar
+    &-block 
+      width: 100%
+      padding-top: 0px
+      padding-bottom: 30px
+     
+    &-title
+      margin-bottom: 0
+      font-size: 25px
+      line-height: 33px
+

@@ -1,0 +1,125 @@
+.hero 
+  background-image: url('../../img/hero/hero-bg.jpg')
+  background-position: center center
+  background-size: cover
+  width: 100%
+  &-block
+    padding-top: 65px
+    padding-bottom: 55px
+    padding-left: 100px
+    padding-right: 100px
+    color: $text-white
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    text-align: center
+  &-new
+    background-color: $orange
+    padding: 5px 15px
+    margin-bottom: 44px
+    &__link
+      text-transform: uppercase
+      font-family: 'Raleway', sans-serif
+      font-weight: normal
+      font-size: 16px
+      line-height: 19px
+      letter-spacing: 2px
+      text-decoration: none
+      color: $text-white
+  &-title
+    text-transform: uppercase
+    font-family: 'Raleway', sans-serif
+    font-weight: 300
+    font-size: 72px
+    line-height: 85px
+    letter-spacing: 2px
+    margin-bottom: 42px
+  &-navigation
+    width: 100%
+    display: flex
+    justify-content: space-between
+    font-family: 'Raleway', sans-serif
+    font-weight: normal
+    font-size: 13px
+    line-height: 15px
+    margin-bottom: 55px
+    &__arrows
+      position: relative
+      &::before
+        content: ""
+        position: absolute
+        top: -12px
+        right: 30px
+        height: 42px
+        border: 1px solid #FFFFFF  
+      &-right
+        display: inline-block
+        margin-left: 20px  
+      &-left
+        display: inline-block 
+    &__previos
+      position: relative 
+      &::after
+        content: ""
+        position: absolute
+        top: 7px
+        right: -76px
+        width: 64px
+        height: 0
+        border: 1px solid #FFFFFF
+    &__next
+      position: relative
+      &::after
+        content: ""
+        position: absolute
+        top: 7px
+        left: -76px
+        width: 64px
+        height: 0
+        border: 1px solid #FFFFFF        
+  &-description
+    max-width: 450px
+    text-align: center   
+    font-family: 'Raleway', sans-serif  
+    font-weight: normal
+    font-size: 14px
+    line-height: 21px
+  &-dots
+    display: none
+    &__item
+      width: 10px
+      height: 10px
+      border-radius: 50%
+      background-color: white
+      opacity: 0.4
+      margin-right: 15px
+      &:last-child
+        margin-right: 0
+      &-active
+        opacity: 1
+
+@media screen and ( max-width: 768px )
+  .hero
+    &-block
+      display: flex
+      padding-top: 25px
+      padding-bottom: 30px
+    &-new
+      margin-bottom: 36px
+    &-navigation
+      display: none
+    &-title
+      font-size: 30px
+      line-height: 150%
+      margin-bottom: 20px
+    &-description
+      margin-bottom: 30px
+    &-dots
+      display: flex
+@media screen and ( max-width: 500px )
+  .hero
+    width: 100%
+    &-block
+      padding-left: 0
+      padding-right: 0
