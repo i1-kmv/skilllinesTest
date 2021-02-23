@@ -16,20 +16,28 @@
       width: 45px
       background-color: #DADADA  
   &-menu
-    display: block
+    display: none
     position: fixed
     top: 0
-    bottom: 0
     right: 0
     left: 0
+    bottom: 0
+    z-index: 50
     background-color: white
-    z-index: 1
+    overflow-y: scroll
+    height: 100%
     &__close
       display: flex
       justify-content: flex-end
-      padding-top: 17px
-      padding-bottom: 31px
-      padding-right: 17px
+      height: 71px
+      position: relative
+      &-img
+        position: absolute
+        top: 17px
+        right: 17px
+        display: block
+        width: 28px
+        height: 28px
     &__items
       display: flex
       flex-direction: column
@@ -49,8 +57,6 @@
       letter-spacing: 0.1em
       text-transform: uppercase
       background-color: #F9F9FC
-      &:last-child
-        margin-bottom: 0
     &__link
       text-decoration: none 
       color:  #48494D
@@ -61,6 +67,8 @@
   .mobile
     &-button
       display: flex
+    &-menu
+      display: block
 @media screen and ( max-width: 500px  )
   .mobile
     &-button

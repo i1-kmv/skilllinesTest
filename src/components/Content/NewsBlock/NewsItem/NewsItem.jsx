@@ -1,5 +1,6 @@
 import React from 'react'
-import itemFlag from "../../../../img/content/news/items/item-flag.svg";
+import itemFlag from "../../../../img/content/news/items/item-flag.svg"
+
 
 export const NewsItem = (props) => {
     return (

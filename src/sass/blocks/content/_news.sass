@@ -140,11 +140,12 @@
         max-width: 370px
   &-pagination
     display: flex
-    justify-content: center
+    justify-content: space-between
     align-items: center
-    margin-bottom: 75px
+    width: 400px
+    min-width: 400px
+    margin: 8px auto 40px
     &__previous
-      margin-right: 112px
       opacity: 0.4
       position: relative
       &::before
@@ -159,7 +160,6 @@
     &__next
       opacity: 0.4
       position: relative
-      margin-left: 103px
       &::before
         content: ''
         position: absolute
@@ -171,19 +171,48 @@
         opacity: 0.4
     &__items
       display: flex
+      justify-content: center
+      align-items: center
       list-style: none
       padding-left: 0
-      margin-right: 13px  
     &__item
+      display: flex
+      justify-content: center
+      align-items: center
       font-size: 14px
       line-height: 17px
-      margin-right: 24px
-      &:last-child
-        margin-right: 0px
+      &-small
+        margin-right: 24px
+        font-size: 14px
+        line-height: 17px
+        &:nth-child(5)
+          margin-right: 0px
+      &-big
+        margin-right: 24px
+        font-size: 14px
+        line-height: 17px
+        &:nth-child(7)
+          margin-right: 0px
       &-link
         text-decoration: none
         color: rgba(0, 0, 0, .4)
-        position: relative
+        &:hover
+          cursor: pointer
+        &__active
+          font-size: 20px
+          line-height: 24px
+          color: #000000
+          position: relative
+          &:hover
+            cursor: pointer
+          &:before
+            content: ''
+            position: absolute
+            height: 3px
+            background-color: $orange
+            bottom: -4px
+            left: 0
+            right: 0
     &__last
       font-size: 14px
       line-height: 17px
@@ -196,6 +225,7 @@
       line-height: 17px
       color: rgba(0, 0, 0, .4)
       margin-right: 11px
+      margin-left: 11px
   &-ballet
     display: flex
     justify-content: space-between
@@ -264,7 +294,6 @@
         margin-right: 0
         margin-bottom: 30px
       &__items
-        flex-direction: row
         justify-content: center
         text-align: center
         &:last-child
@@ -272,7 +301,7 @@
       &__item
         flex-direction: column
         justify-content: center
-        margin-right: 10px
+        margin-bottom: 30px
     &-overview
       &__item
         margin-right: 0    
@@ -296,7 +325,6 @@
         margin-right: 0px 
 @media screen and ( max-width: 500px )
   .news
-   
     &-culture
       padding-bottom: 24px
       &__poster
@@ -317,16 +345,56 @@
           margin-bottom: 0px
     &-ballet
       padding: 42px 20px
+    &-pagination
+      color: $text-color
+      width: 300px
+      min-width: 300px
+      &__previous
+        margin-right: 10px
+        img
+          height: 17px
+        &::before
+          display: none
+      &__next
+        margin-left: 10px
+        img
+          height: 17px
+        &::before
+          display: none
+      &__item
+        &-small
+          margin-right: 28px
+          line-height: 17px
+          &:nth-child(3)
+            margin-right: 0px
+          &:last-child
+            margin-right: 0px
+        &-big
+          margin-right: 28px
+          line-height: 17px
+          &:nth-child(5)
+            margin-right: 0px
+          &:last-child
+            margin-right: 0px
+        &-link
+          font-size: 18px
+          color: $text-color
+          &__active
+            color: $orange
+            border: 1px solid $orange
+            padding: 17px 17px
+            &:before
+              display: none
 @media screen and ( max-width: 400px )
    .news
     &-overview
-      max-width: 350px
+      min-width: 100%
       &__items
-        max-width: 350px
+        min-width: 100%
       &__item
         &-image
           object-fit: cover
-          max-width: 320px
+          min-width: 100%
           &-picture
             width: 100%
             height: 203px

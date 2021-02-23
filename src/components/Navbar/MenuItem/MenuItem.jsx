@@ -1,12 +1,18 @@
 import React from 'react'
+import {Link} from "react-scroll"
 
 
 export const MenuItem = (props) => {
     return (
-        <li className="navbar-menu__item">
-            <a href={props.href} className="navbar-menu__link">
+        <li className={props.liClassName}>
+            <Link to={props.href} spy={true}
+                  className={props.linkClassName}
+                  smooth={true}
+                  offset={-70}
+                  duration={1500}
+            >
                 {props.title}
-            </a>
+            </Link>
         </li>
     )
 }

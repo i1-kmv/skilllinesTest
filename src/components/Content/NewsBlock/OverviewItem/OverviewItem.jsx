@@ -1,7 +1,7 @@
 import React from 'react'
-import itemFlag from "../../../../img/content/news/items/item-flag.svg";
-import view from "../../../../img/content/news/overwievs/view.svg";
-import comments from "../../../../img/content/news/overwievs/comments.svg";
+import itemFlag from "../../../../img/content/news/items/item-flag.svg"
+import view from "../../../../img/content/news/overwievs/view.svg"
+import comments from "../../../../img/content/news/overwievs/comments.svg"
 
 
 export const OverviewItem = (props) => {

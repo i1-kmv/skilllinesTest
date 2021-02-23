@@ -1,10 +1,8 @@
 import React from 'react'
-import shape from "../../../img/content/posters/Shape.svg"
 import ballsBg from '../../../img/content/posters/balls-bg.png'
 import fotosetBg from '../../../img/content/posters/fotoset-bg.png'
 import birdsBg from '../../../img/content/posters/birds-bg.png'
-import {PosterItem} from "./PosterItem/PosterItem";
-
+import {PosterItem} from "./PosterItem/PosterItem"
 
 
 export const PostersBlock = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import item1 from "../../../img/slider/1.png";
+
 
 
 export const SliderItem = (props) => {
@@ -10,7 +10,7 @@ export const SliderItem = (props) => {
                 <h6 className="slider-item__onhover-title">
                     {props.title}
                 </h6>
-                <a href="" className="slider-item__onhover-button">смотреть</a>
+                <span href="#" className="slider-item__onhover-button">смотреть</span>
             </div>
         </div>
     )

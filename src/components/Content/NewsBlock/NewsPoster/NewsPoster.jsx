@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export const NewsPoster = () => {
     return (
         <div className="news-culture__poster">

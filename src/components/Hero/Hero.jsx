@@ -8,9 +8,9 @@ export const Hero = () => {
             <div className="container">
                 <div className="hero-block">
                     <div className="hero-new">
-                        <a href="#" className="hero-new__link">
+                        <span className="hero-new__link">
                             новое
-                        </a>
+                        </span>
                     </div>
                     <div className="hero-title">
                         <span>
@@ -35,11 +35,11 @@ export const Hero = () => {
                         </span>
                     </div>
                     <div className="hero-dots">
-                        <div className="hero-dots__item hero-dots__item-active"><a href="#" className="hero-dots__item-link"/></div>
-                        <div className="hero-dots__item"><a href="#" className="hero-dots__item-link"/></div>
-                        <div className="hero-dots__item"><a href="#" className="hero-dots__item-link"/></div>
-                        <div className="hero-dots__item"><a href="#" className="hero-dots__item-link"/></div>
-                        <div className="hero-dots__item"><a href="#" className="hero-dots__item-link"/></div>
+                        <div className="hero-dots__item hero-dots__item-active"><span className="hero-dots__item-link"/></div>
+                        <div className="hero-dots__item"><span href="#" className="hero-dots__item-link"/></div>
+                        <div className="hero-dots__item"><span href="#" className="hero-dots__item-link"/></div>
+                        <div className="hero-dots__item"><span href="#" className="hero-dots__item-link"/></div>
+                        <div className="hero-dots__item"><span href="#" className="hero-dots__item-link"/></div>
                     </div>
                 </div>
             </div>

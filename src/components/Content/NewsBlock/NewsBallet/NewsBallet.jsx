@@ -1,5 +1,5 @@
 import React from 'react'
-import shape from "../../../../img/content/posters/Shape.svg";
+import shape from "../../../../img/content/posters/Shape.svg"
 
 
 export const NewsBallet = () => {
@@ -10,7 +10,7 @@ export const NewsBallet = () => {
             </div>
             <div className="news-ballet__button">
                 <div className="news-ballet__button-wrap">
-                    <a className="news-ballet__button-link" href="#">смотреть</a>
+                    <span className="news-ballet__button-link">смотреть</span>
                     <div className="news-ballet__button-image">
                         <img src={shape} alt="#"/>
                     </div>

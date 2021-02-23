@@ -1,14 +1,23 @@
 import React from 'react'
 import shape from "../../../img/mobile/Shape.svg"
+import {Link} from "react-scroll"
 
 
 export const MobileMenuItem = (props) => {
     return (
-        <li className="mobile-menu__item">
-            <a href="#" className="mobile-menu__link">
+        <Link to={props.href}
+              className="mobile-menu__link"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1500}
+        >
+            <li className="mobile-menu__item" onClick={props.href != '#' ? props.setMobileModeHandler : () => {}}>
                 {props.item}
-            </a>
-            <img src={shape} alt="" className="mobile-menu__image"/>
-        </li>
+                <img src={shape} alt="" className="mobile-menu__image"/>
+            </li>
+        </Link>
+
+
     )
 }
