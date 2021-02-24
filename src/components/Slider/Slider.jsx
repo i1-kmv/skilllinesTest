@@ -10,13 +10,6 @@ import {Gallery} from "./Gallery";
 
 export const Slider = () => {
 
-    const sliderItems = [
-        {title: 'Как все успевать', src: item1 },
-        {title: 'Заголовок', src: item2 },
-        {title: 'Заголовок', src: item3 },
-        {title: 'Заголовок', src: item4 },
-    ]
-
     const carousel = useRef(null)
 
     return (

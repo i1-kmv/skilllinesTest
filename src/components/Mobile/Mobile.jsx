@@ -1,6 +1,6 @@
 import React from 'react'
-import {MobileButton} from "./MobileButton";
-import {MobileMenu} from "./MobileMenu/MobileMenu";
+import {MobileButton} from "./MobileButton"
+import {MobileMenu} from "./MobileMenu/MobileMenu"
 
 export const Mobile = (props) => {
 

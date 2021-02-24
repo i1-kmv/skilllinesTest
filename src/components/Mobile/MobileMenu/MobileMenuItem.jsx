@@ -7,10 +7,6 @@ export const MobileMenuItem = (props) => {
     return (
         <Link to={props.href}
               className="mobile-menu__link"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={1500}
         >
             <li className="mobile-menu__item" onClick={props.href != '#' ? props.setMobileModeHandler : () => {}}>
                 {props.item}

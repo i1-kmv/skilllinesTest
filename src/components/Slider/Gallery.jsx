@@ -1,11 +1,11 @@
 import React from 'react'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
-import item1 from "../../img/slider/1.png";
-import item2 from "../../img/slider/2.png";
-import item3 from "../../img/slider/3.png";
-import item4 from "../../img/slider/4.png";
-import {SliderItem} from "./SliderItem/SliderItem";
+import item1 from "../../img/slider/1.png"
+import item2 from "../../img/slider/2.png"
+import item3 from "../../img/slider/3.png"
+import item4 from "../../img/slider/4.png"
+import {SliderItem} from "./SliderItem/SliderItem"
 
 export const Gallery = ({carousel}) => {
 
@@ -19,7 +19,7 @@ export const Gallery = ({carousel}) => {
     let responsive = {
         740: {item: 2},
         882: { items: 3},
-        1182: {items: 4},
+        1280: {items: 4},
 
 
     }
@@ -27,7 +27,7 @@ export const Gallery = ({carousel}) => {
     const handleOnDragStart = (e) => e.preventDefault()
     return (
         <AliceCarousel
-            ref={carousel}
+            ref={(el) => (carousel.current = el)}
             mouseTrackingEnabled
             responsive={responsive}
             infinite={true}
