@@ -41,7 +41,9 @@
       &-image
         margin-right: 12px
         height: 100%
-        position: relative 
+        position: relative
+        &:hover
+          cursor: pointer
         &-item
           height: 100%  
         &:hover
@@ -71,6 +73,7 @@
         margin-bottom: 10px
         &:hover
           color: $orange
+          cursor: pointer
       &-subtitle
         font-family: 'Raleway', sans-serif
         font-weight: normal
@@ -89,6 +92,7 @@
           display: block
           height: 100%
         &:hover
+          cursor: pointer
           .news-overview__item-onhover
             display: flex
       &-onhover
@@ -131,6 +135,7 @@
         margin-top: 20px
         margin-bottom: 11px
         &:hover
+          cursor: pointer
           color: $orange
       &-subtitle
         font-family: 'Raleway', sans-serif
@@ -148,6 +153,8 @@
     &__previous
       opacity: 0.4
       position: relative
+      &:hover
+        cursor: pointer
       &::before
         content: ''
         position: absolute
@@ -160,6 +167,8 @@
     &__next
       opacity: 0.4
       position: relative
+      &:hover
+        cursor: pointer
       &::before
         content: ''
         position: absolute
