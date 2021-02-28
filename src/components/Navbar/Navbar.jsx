@@ -18,7 +18,6 @@ export const Navbar = () => {
 
     return (
         <div className="navbar">
-
             <div className="navbar-block">
                 <h1 className="navbar-title">Новости культуры</h1>
                 <div className="navbar-menu">
@@ -32,7 +31,7 @@ export const Navbar = () => {
                     </ul>
                 </div>
             </div>
-        </div>
 
+        </div>
     )
 }
