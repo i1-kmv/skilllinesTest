@@ -18,21 +18,21 @@ export const Navbar = () => {
 
     return (
         <div className="navbar">
-            <div className="container">
-                <div className="navbar-block">
-                    <h1 className="navbar-title">Новости культуры</h1>
-                    <div className="navbar-menu">
-                        <ul className="navbar-menu__items">
-                            {menuItems.map((item, index) => {
-                                return (
-                                    <MenuItem href={item.href} title={item.title} key={`${item}_${index}`}
-                                              liClassName={"navbar-menu__item"} linkClassName={"navbar-menu__link"}/>
-                                )
-                            })}
-                        </ul>
-                    </div>
+
+            <div className="navbar-block">
+                <h1 className="navbar-title">Новости культуры</h1>
+                <div className="navbar-menu">
+                    <ul className="navbar-menu__items">
+                        {menuItems.map((item, index) => {
+                            return (
+                                <MenuItem href={item.href} title={item.title} key={`${item}_${index}`}
+                                          liClassName={"navbar-menu__item"} linkClassName={"navbar-menu__link"}/>
+                            )
+                        })}
+                    </ul>
                 </div>
             </div>
         </div>
+
     )
 }

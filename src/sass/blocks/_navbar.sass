@@ -1,5 +1,7 @@
 .navbar
   &-block
+    max-width: 1170px
+    margin: 0 auto
     display: flex
     flex-direction: column
     text-align: center
@@ -31,7 +33,11 @@
       text-decoration: none 
       color: $text-color
       cursor: pointer
-
+@media screen and ( max-width: 1192px )
+  .navbar
+    &-block
+      padding-right: 16px
+      padding-left: 16px
 @media screen and ( max-width: 968px )
   .navbar
     &-menu
@@ -44,9 +50,9 @@
       width: 100%
       padding-top: 0px
       padding-bottom: 30px
-     
     &-title
       margin-bottom: 0
       font-size: 25px
       line-height: 33px
+
 
