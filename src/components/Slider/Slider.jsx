@@ -1,12 +1,8 @@
 import React, {useRef} from 'react'
 import right from "../../img/slider/right.svg"
 import left from "../../img/slider/left.svg"
-import item1 from "../../img/slider/1.png"
-import item2 from "../../img/slider/2.png"
-import item3 from "../../img/slider/3.png"
-import item4 from "../../img/slider/4.png"
-import {Fade} from "react-reveal";
-import {Gallery} from "./Gallery";
+import {Fade} from "react-reveal"
+import {Gallery} from "./Gallery"
 
 export const Slider = () => {
 

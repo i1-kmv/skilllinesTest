@@ -6,6 +6,7 @@ import {Content} from "./components/Content/Content"
 import {Slider} from "./components/Slider/Slider"
 import {Footer} from "./components/Footer/Footer"
 import {Mobile} from "./components/Mobile/Mobile.jsx"
+import {GalleryHero} from "./components/Hero/GalleryHero";
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         <>
             <Mobile mobileMenuMode={mobileMenuMode} setMobileMenuMode={setMobileMenuMode}/>
             <Navbar/>
-            <Hero/>
+            <GalleryHero/>
             <Content/>
             <Slider/>
             <Footer/>

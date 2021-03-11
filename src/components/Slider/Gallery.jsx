@@ -24,7 +24,6 @@ export const Gallery = ({carousel}) => {
 
     }
 
-    const handleOnDragStart = (e) => e.preventDefault()
     return (
         <AliceCarousel
             ref={(el) => (carousel.current = el)}
