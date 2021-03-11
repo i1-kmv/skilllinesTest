@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/skilllinesTest/static/css/main.b8a9a4bc.chunk.css",
-    "main.js": "/skilllinesTest/static/js/main.64bf56c0.chunk.js",
-    "main.js.map": "/skilllinesTest/static/js/main.64bf56c0.chunk.js.map",
+    "main.css": "/skilllinesTest/static/css/main.e9709bf8.chunk.css",
+    "main.js": "/skilllinesTest/static/js/main.52b69fa4.chunk.js",
+    "main.js.map": "/skilllinesTest/static/js/main.52b69fa4.chunk.js.map",
     "runtime-main.js": "/skilllinesTest/static/js/runtime-main.a509581b.js",
     "runtime-main.js.map": "/skilllinesTest/static/js/runtime-main.a509581b.js.map",
     "static/css/2.02daa001.chunk.css": "/skilllinesTest/static/css/2.02daa001.chunk.css",
-    "static/js/2.165b86ec.chunk.js": "/skilllinesTest/static/js/2.165b86ec.chunk.js",
-    "static/js/2.165b86ec.chunk.js.map": "/skilllinesTest/static/js/2.165b86ec.chunk.js.map",
+    "static/js/2.5149b9d9.chunk.js": "/skilllinesTest/static/js/2.5149b9d9.chunk.js",
+    "static/js/2.5149b9d9.chunk.js.map": "/skilllinesTest/static/js/2.5149b9d9.chunk.js.map",
     "static/js/3.6aadd0c0.chunk.js": "/skilllinesTest/static/js/3.6aadd0c0.chunk.js",
     "static/js/3.6aadd0c0.chunk.js.map": "/skilllinesTest/static/js/3.6aadd0c0.chunk.js.map",
     "index.html": "/skilllinesTest/index.html",
     "static/css/2.02daa001.chunk.css.map": "/skilllinesTest/static/css/2.02daa001.chunk.css.map",
-    "static/css/main.b8a9a4bc.chunk.css.map": "/skilllinesTest/static/css/main.b8a9a4bc.chunk.css.map",
-    "static/js/2.165b86ec.chunk.js.LICENSE.txt": "/skilllinesTest/static/js/2.165b86ec.chunk.js.LICENSE.txt",
+    "static/css/main.e9709bf8.chunk.css.map": "/skilllinesTest/static/css/main.e9709bf8.chunk.css.map",
+    "static/js/2.5149b9d9.chunk.js.LICENSE.txt": "/skilllinesTest/static/js/2.5149b9d9.chunk.js.LICENSE.txt",
     "static/media/1.2ffa6d7e.png": "/skilllinesTest/static/media/1.2ffa6d7e.png",
     "static/media/1.3a2076cb.png": "/skilllinesTest/static/media/1.3a2076cb.png",
     "static/media/1.46ab9290.png": "/skilllinesTest/static/media/1.46ab9290.png",
@@ -56,8 +56,8 @@
   "entrypoints": [
     "static/js/runtime-main.a509581b.js",
     "static/css/2.02daa001.chunk.css",
-    "static/js/2.165b86ec.chunk.js",
-    "static/css/main.b8a9a4bc.chunk.css",
-    "static/js/main.64bf56c0.chunk.js"
+    "static/js/2.5149b9d9.chunk.js",
+    "static/css/main.e9709bf8.chunk.css",
+    "static/js/main.52b69fa4.chunk.js"
   ]
 }
