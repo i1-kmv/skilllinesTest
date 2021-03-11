@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/weLoveCulture/static/css/main.7c877070.chunk.css",
+    "main.css": "/weLoveCulture/static/css/main.93bc5c98.chunk.css",
     "main.js": "/weLoveCulture/static/js/main.52b69fa4.chunk.js",
     "main.js.map": "/weLoveCulture/static/js/main.52b69fa4.chunk.js.map",
     "runtime-main.js": "/weLoveCulture/static/js/runtime-main.cbd5aa1b.js",
@@ -12,7 +12,7 @@
     "static/js/3.6aadd0c0.chunk.js.map": "/weLoveCulture/static/js/3.6aadd0c0.chunk.js.map",
     "index.html": "/weLoveCulture/index.html",
     "static/css/2.02daa001.chunk.css.map": "/weLoveCulture/static/css/2.02daa001.chunk.css.map",
-    "static/css/main.7c877070.chunk.css.map": "/weLoveCulture/static/css/main.7c877070.chunk.css.map",
+    "static/css/main.93bc5c98.chunk.css.map": "/weLoveCulture/static/css/main.93bc5c98.chunk.css.map",
     "static/js/2.5149b9d9.chunk.js.LICENSE.txt": "/weLoveCulture/static/js/2.5149b9d9.chunk.js.LICENSE.txt",
     "static/media/1.2ffa6d7e.png": "/weLoveCulture/static/media/1.2ffa6d7e.png",
     "static/media/1.3a2076cb.png": "/weLoveCulture/static/media/1.3a2076cb.png",
@@ -57,7 +57,7 @@
     "static/js/runtime-main.cbd5aa1b.js",
     "static/css/2.02daa001.chunk.css",
     "static/js/2.5149b9d9.chunk.js",
-    "static/css/main.7c877070.chunk.css",
+    "static/css/main.93bc5c98.chunk.css",
     "static/js/main.52b69fa4.chunk.js"
   ]
 }
